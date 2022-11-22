@@ -74,19 +74,19 @@ export default function UsersList() {
                   </Box>
                 </Td>
                 {isWideVersion && <Td>04 de Abril de 2022</Td>}
-                {isWideVersion && (
+                {isWideVersion && 
                   <Td>
                     <Button
                       as="a"
                       size={["lg", "sm"]}
                       fontSize="sm"
                       colorScheme="purple"
-                      leftIcon={<Icon as={RiPencilLine} fontSize="18" pl={["0", "0"]} />}
+                      leftIcon={<Icon as={RiPencilLine} fontSize="18" />}
                     >
                       Editar
                     </Button>
                   </Td>
-                )}
+                }
               </Tr>
             </Tbody>
           </Table>
